@@ -70,21 +70,19 @@
 			redGamePiece.update();
 			yellowGamePiece.update();
 		}
-
-		var direction = {
-			moveUp: function () {
-				myGamePiece.speedY -= 1;
-			},
-			moveDown: function () {
-				myGamePiece.speedY += 1;
-			},
-			moveLeft: function () {
-				myGamePiece.speedX -= 1;
-			},
-			moveRight: function () {
-				myGamePiece.speedY += 1;
-			}
-		}	
+		
+		function moveUp() {
+			myGamePiece.speedY -= 1;
+		}
+		function moveDown() {
+			myGamePiece.speedY += 1;
+		}
+		function moveLeft() {
+			myGamePiece.speedX -= 1;
+		}
+		function moveRight() {
+			myGamePiece.speedY += 1;
+		}
 
 
 	</script>
